@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="stylist/style.css">
+</head>
+<body>
+    <hr>
+    <h2>Contact me:</h2>
+    <table cellspacing="10">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Content</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Address</td>
+                <td>Room 204, Building 35, New Century University Village, Shanghai University, Baoshan District, Shanghai, China</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>14785481094@163.com</td>
+            </tr>
+            <tr>
+                <td>Mobile Phone</td>
+                <td>14785481094</td>
+            </tr>
+            <tr>
+                <td>WeChat</td>
+                <td>14785481094</td>
+            </tr>
+            <tr>
+                <td>QQ</td>
+                <td>1399266853</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <!-- table used for showing structured data -->
+    <form action="mailto:147854810942163.com" method="POST" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Your Name:</label></td>
+                <td><input type="text" name="yourName" required></td>
+            </tr>
+            <tr>
+                <td><label>Your Email Address:</label></td>
+                <td><input type="email" name="yourEmail" placeholder="Enter your email here" required></td>
+            </tr>
+        </table>
+        <label>Your message:</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10" required></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Here are the input things:</h2>
+    <form>
+        <table cellspacing="5">
+            <tr>
+                <td><label for="name">Your Name:</label></td>
+                <td><input type="text" id="name" required></td>
+            </tr>
+            <tr>
+                <td><label>Your Sex:</label></td>
+                <td>
+                    <input type="radio" id="sex" name="sex" checked><label for="sex">Female</label>
+                    <input type="radio" id="sex" name="sex"><label for="sex">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Your Hobby:</label></td>
+                <td>
+                    <input type="checkbox" id="movies" name="hobby"><label for="movies">Movies</label>
+                    <input type="checkbox" id="singing" name="hobby"><label for="singing">Singing</label>
+                    <input type="checkbox" id="travel" name="hobby"><label for="travel">Travel</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Your favorite color:</label></td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td><label>Your Birthday:</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Your Email:</label></td>
+                <td><input type="email" placeholder="Enter your email here"></td>
+            </tr>
+            <tr>
+                <td><label>Choose a profile picture:</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label>A hidden input!!!</label></td>
+                <td><input type="hidden" id="secret" name="secret" value="iloveu"></td>
+            </tr>
+            <tr>
+                <td><label>An submit button using an image:</label></td>
+                <td><input type="image" id="input" name="input" alt="input" src="images/input.jpg" height="50"></td>
+            </tr>
+            <tr>
+                <input type="range">
+            </tr>
+        </table> 
+    </form>
+</body>
+</html>
